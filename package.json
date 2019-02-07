@@ -1,0 +1,26 @@
+{
+  "name": "faces",
+  "version": "1.0.0",
+  "description": "A base application for training about GraphQL Unions and Interfaces.",
+  "main": "src/server.js",
+  "repository": "git@github.com:dbrudnicki/faces.git",
+  "author": "dbrudnicki <dbrudnicki@nmetric.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.4"
+  }
+}
